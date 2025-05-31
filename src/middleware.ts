@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server'
 
-export function middleware(request: NextRequest) {
+export function middleware_disabled(request: NextRequest) {
   // Add security headers to all responses
   const response = NextResponse.next()
 
