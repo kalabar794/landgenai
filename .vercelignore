@@ -1,0 +1,9 @@
+# Vercel ignore file
+.env.local
+.env*.local
+local.db
+*.db
+/test-results/
+/playwright-report/
+/node_modules/.cache/
+.DS_Store

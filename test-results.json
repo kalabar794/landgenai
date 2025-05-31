@@ -1,0 +1,641 @@
+{
+  "config": {
+    "configFile": "/Users/jonathonc/Auto1111/Cursor/Landing New/ai-landing-generator/playwright.config.ts",
+    "rootDir": "/Users/jonathonc/Auto1111/Cursor/Landing New/ai-landing-generator/tests",
+    "forbidOnly": false,
+    "fullyParallel": true,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 3,
+    "metadata": {
+      "actualWorkers": 6
+    },
+    "preserveOutput": "always",
+    "reporter": [
+      [
+        "html",
+        null
+      ],
+      [
+        "list",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "test-results.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "quiet": false,
+    "projects": [
+      {
+        "outputDir": "/Users/jonathonc/Auto1111/Cursor/Landing New/ai-landing-generator/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 6
+        },
+        "id": "chromium",
+        "name": "chromium",
+        "testDir": "/Users/jonathonc/Auto1111/Cursor/Landing New/ai-landing-generator/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.spec.ts"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "/Users/jonathonc/Auto1111/Cursor/Landing New/ai-landing-generator/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 6
+        },
+        "id": "firefox",
+        "name": "firefox",
+        "testDir": "/Users/jonathonc/Auto1111/Cursor/Landing New/ai-landing-generator/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.spec.ts"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "/Users/jonathonc/Auto1111/Cursor/Landing New/ai-landing-generator/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 6
+        },
+        "id": "webkit",
+        "name": "webkit",
+        "testDir": "/Users/jonathonc/Auto1111/Cursor/Landing New/ai-landing-generator/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.spec.ts"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "/Users/jonathonc/Auto1111/Cursor/Landing New/ai-landing-generator/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 6
+        },
+        "id": "Mobile Chrome",
+        "name": "Mobile Chrome",
+        "testDir": "/Users/jonathonc/Auto1111/Cursor/Landing New/ai-landing-generator/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.spec.ts"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "/Users/jonathonc/Auto1111/Cursor/Landing New/ai-landing-generator/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 6
+        },
+        "id": "Mobile Safari",
+        "name": "Mobile Safari",
+        "testDir": "/Users/jonathonc/Auto1111/Cursor/Landing New/ai-landing-generator/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.spec.ts"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "shard": null,
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.52.0",
+    "workers": 6,
+    "webServer": {
+      "command": "npm run build && npm run start",
+      "url": "http://localhost:3000",
+      "reuseExistingServer": true,
+      "timeout": 120000,
+      "env": {
+        "NODE_ENV": "test",
+        "ANTHROPIC_API_KEY": "sk-test-dummy-key-for-testing",
+        "PEXELS_API_KEY": "test-pexels-key-for-testing"
+      }
+    }
+  },
+  "suites": [
+    {
+      "title": "homepage.spec.ts",
+      "file": "homepage.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Homepage Tests",
+          "file": "homepage.spec.ts",
+          "line": 3,
+          "column": 6,
+          "specs": [
+            {
+              "title": "should display homepage with hero section",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 1449,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-05-31T18:52:45.808Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "84e7eb052e8cbae1c9f0-619a13c5c186e49e2dee",
+              "file": "homepage.spec.ts",
+              "line": 8,
+              "column": 7
+            },
+            {
+              "title": "should display stats section",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 1,
+                      "status": "interrupted",
+                      "duration": 1581,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-05-31T18:52:45.793Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/jonathonc/Auto1111/Cursor/Landing New/ai-landing-generator/test-results/homepage-Homepage-Tests-should-display-stats-section-chromium/test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "/Users/jonathonc/Auto1111/Cursor/Landing New/ai-landing-generator/test-results/homepage-Homepage-Tests-should-display-stats-section-chromium/video.webm"
+                        },
+                        {
+                          "name": "_error-context-0",
+                          "contentType": "text/markdown",
+                          "path": "/Users/jonathonc/Auto1111/Cursor/Landing New/ai-landing-generator/test-results/homepage-Homepage-Tests-should-display-stats-section-chromium/error-context.md"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "skipped"
+                }
+              ],
+              "id": "84e7eb052e8cbae1c9f0-3ef9809ee78a635919ab",
+              "file": "homepage.spec.ts",
+              "line": 21,
+              "column": 7
+            },
+            {
+              "title": "should display preview showcase",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 2,
+                      "status": "interrupted",
+                      "duration": 1580,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-05-31T18:52:45.793Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/jonathonc/Auto1111/Cursor/Landing New/ai-landing-generator/test-results/homepage-Homepage-Tests-should-display-preview-showcase-chromium/test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "/Users/jonathonc/Auto1111/Cursor/Landing New/ai-landing-generator/test-results/homepage-Homepage-Tests-should-display-preview-showcase-chromium/video.webm"
+                        },
+                        {
+                          "name": "_error-context-0",
+                          "contentType": "text/markdown",
+                          "path": "/Users/jonathonc/Auto1111/Cursor/Landing New/ai-landing-generator/test-results/homepage-Homepage-Tests-should-display-preview-showcase-chromium/error-context.md"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "skipped"
+                }
+              ],
+              "id": "84e7eb052e8cbae1c9f0-8ca43863be26bbbfc852",
+              "file": "homepage.spec.ts",
+              "line": 29,
+              "column": 7
+            },
+            {
+              "title": "should display features section",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 3,
+                      "status": "failed",
+                      "duration": 1354,
+                      "error": {
+                        "message": "Error: expect.toBeVisible: Error: strict mode violation: getByText('Lightning Fast') resolved to 2 elements:\n    1) <span class=\"text-sm font-medium text-gray-700\">AI-Powered • Lightning Fast • No Coding Required</span> aka getByText('AI-Powered • Lightning Fast')\n    2) <h3 class=\"text-xl font-bold text-gray-900 mb-3\">Lightning Fast</h3> aka getByRole('heading', { name: 'Lightning Fast' })\n\nCall log:\n\u001b[2m  - expect.toBeVisible with timeout 10000ms\u001b[22m\n\u001b[2m  - waiting for getByText('Lightning Fast')\u001b[22m\n",
+                        "stack": "Error: expect.toBeVisible: Error: strict mode violation: getByText('Lightning Fast') resolved to 2 elements:\n    1) <span class=\"text-sm font-medium text-gray-700\">AI-Powered • Lightning Fast • No Coding Required</span> aka getByText('AI-Powered • Lightning Fast')\n    2) <h3 class=\"text-xl font-bold text-gray-900 mb-3\">Lightning Fast</h3> aka getByRole('heading', { name: 'Lightning Fast' })\n\nCall log:\n\u001b[2m  - expect.toBeVisible with timeout 10000ms\u001b[22m\n\u001b[2m  - waiting for getByText('Lightning Fast')\u001b[22m\n\n    at /Users/jonathonc/Auto1111/Cursor/Landing New/ai-landing-generator/tests/homepage.spec.ts:43:52",
+                        "location": {
+                          "file": "/Users/jonathonc/Auto1111/Cursor/Landing New/ai-landing-generator/tests/homepage.spec.ts",
+                          "column": 52,
+                          "line": 43
+                        },
+                        "snippet": "  41 |     await expect(page.getByText('AI-Powered Copy')).toBeVisible()\n  42 |     await expect(page.getByText('Smart Design')).toBeVisible()\n> 43 |     await expect(page.getByText('Lightning Fast')).toBeVisible()\n     |                                                    ^\n  44 |   })\n  45 |\n  46 |   test('should display testimonials', async ({ page }) => {"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/Users/jonathonc/Auto1111/Cursor/Landing New/ai-landing-generator/tests/homepage.spec.ts",
+                            "column": 52,
+                            "line": 43
+                          },
+                          "message": "Error: expect.toBeVisible: Error: strict mode violation: getByText('Lightning Fast') resolved to 2 elements:\n    1) <span class=\"text-sm font-medium text-gray-700\">AI-Powered • Lightning Fast • No Coding Required</span> aka getByText('AI-Powered • Lightning Fast')\n    2) <h3 class=\"text-xl font-bold text-gray-900 mb-3\">Lightning Fast</h3> aka getByRole('heading', { name: 'Lightning Fast' })\n\nCall log:\n\u001b[2m  - expect.toBeVisible with timeout 10000ms\u001b[22m\n\u001b[2m  - waiting for getByText('Lightning Fast')\u001b[22m\n\n\n  41 |     await expect(page.getByText('AI-Powered Copy')).toBeVisible()\n  42 |     await expect(page.getByText('Smart Design')).toBeVisible()\n> 43 |     await expect(page.getByText('Lightning Fast')).toBeVisible()\n     |                                                    ^\n  44 |   })\n  45 |\n  46 |   test('should display testimonials', async ({ page }) => {\n    at /Users/jonathonc/Auto1111/Cursor/Landing New/ai-landing-generator/tests/homepage.spec.ts:43:52"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-05-31T18:52:45.797Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/jonathonc/Auto1111/Cursor/Landing New/ai-landing-generator/test-results/homepage-Homepage-Tests-should-display-features-section-chromium/test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "/Users/jonathonc/Auto1111/Cursor/Landing New/ai-landing-generator/test-results/homepage-Homepage-Tests-should-display-features-section-chromium/video.webm"
+                        },
+                        {
+                          "name": "_error-context-0",
+                          "contentType": "text/markdown",
+                          "path": "/Users/jonathonc/Auto1111/Cursor/Landing New/ai-landing-generator/test-results/homepage-Homepage-Tests-should-display-features-section-chromium/error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "/Users/jonathonc/Auto1111/Cursor/Landing New/ai-landing-generator/tests/homepage.spec.ts",
+                        "column": 52,
+                        "line": 43
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "84e7eb052e8cbae1c9f0-9347aba537e56a4e8e75",
+              "file": "homepage.spec.ts",
+              "line": 40,
+              "column": 7
+            },
+            {
+              "title": "should display testimonials",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 4,
+                      "parallelIndex": 4,
+                      "status": "failed",
+                      "duration": 1459,
+                      "error": {
+                        "message": "Error: expect.toBeVisible: Error: strict mode violation: getByText('Sarah Chen') resolved to 2 elements:\n    1) <div class=\"font-semibold text-gray-900\">Sarah Chen</div> aka getByText('Sarah Chen').first()\n    2) <div class=\"font-semibold text-gray-900\">Sarah Chen</div> aka getByText('Sarah Chen').nth(1)\n\nCall log:\n\u001b[2m  - expect.toBeVisible with timeout 10000ms\u001b[22m\n\u001b[2m  - waiting for getByText('Sarah Chen')\u001b[22m\n",
+                        "stack": "Error: expect.toBeVisible: Error: strict mode violation: getByText('Sarah Chen') resolved to 2 elements:\n    1) <div class=\"font-semibold text-gray-900\">Sarah Chen</div> aka getByText('Sarah Chen').first()\n    2) <div class=\"font-semibold text-gray-900\">Sarah Chen</div> aka getByText('Sarah Chen').nth(1)\n\nCall log:\n\u001b[2m  - expect.toBeVisible with timeout 10000ms\u001b[22m\n\u001b[2m  - waiting for getByText('Sarah Chen')\u001b[22m\n\n    at /Users/jonathonc/Auto1111/Cursor/Landing New/ai-landing-generator/tests/homepage.spec.ts:48:48",
+                        "location": {
+                          "file": "/Users/jonathonc/Auto1111/Cursor/Landing New/ai-landing-generator/tests/homepage.spec.ts",
+                          "column": 48,
+                          "line": 48
+                        },
+                        "snippet": "  46 |   test('should display testimonials', async ({ page }) => {\n  47 |     await expect(page.getByText('Trusted by Growing Businesses')).toBeVisible()\n> 48 |     await expect(page.getByText('Sarah Chen')).toBeVisible()\n     |                                                ^\n  49 |     await expect(page.getByText('Mike Rodriguez')).toBeVisible()\n  50 |     await expect(page.getByText('Emma Thompson')).toBeVisible()\n  51 |   })"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/Users/jonathonc/Auto1111/Cursor/Landing New/ai-landing-generator/tests/homepage.spec.ts",
+                            "column": 48,
+                            "line": 48
+                          },
+                          "message": "Error: expect.toBeVisible: Error: strict mode violation: getByText('Sarah Chen') resolved to 2 elements:\n    1) <div class=\"font-semibold text-gray-900\">Sarah Chen</div> aka getByText('Sarah Chen').first()\n    2) <div class=\"font-semibold text-gray-900\">Sarah Chen</div> aka getByText('Sarah Chen').nth(1)\n\nCall log:\n\u001b[2m  - expect.toBeVisible with timeout 10000ms\u001b[22m\n\u001b[2m  - waiting for getByText('Sarah Chen')\u001b[22m\n\n\n  46 |   test('should display testimonials', async ({ page }) => {\n  47 |     await expect(page.getByText('Trusted by Growing Businesses')).toBeVisible()\n> 48 |     await expect(page.getByText('Sarah Chen')).toBeVisible()\n     |                                                ^\n  49 |     await expect(page.getByText('Mike Rodriguez')).toBeVisible()\n  50 |     await expect(page.getByText('Emma Thompson')).toBeVisible()\n  51 |   })\n    at /Users/jonathonc/Auto1111/Cursor/Landing New/ai-landing-generator/tests/homepage.spec.ts:48:48"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-05-31T18:52:45.802Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/jonathonc/Auto1111/Cursor/Landing New/ai-landing-generator/test-results/homepage-Homepage-Tests-should-display-testimonials-chromium/test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "/Users/jonathonc/Auto1111/Cursor/Landing New/ai-landing-generator/test-results/homepage-Homepage-Tests-should-display-testimonials-chromium/video.webm"
+                        },
+                        {
+                          "name": "_error-context-0",
+                          "contentType": "text/markdown",
+                          "path": "/Users/jonathonc/Auto1111/Cursor/Landing New/ai-landing-generator/test-results/homepage-Homepage-Tests-should-display-testimonials-chromium/error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "/Users/jonathonc/Auto1111/Cursor/Landing New/ai-landing-generator/tests/homepage.spec.ts",
+                        "column": 48,
+                        "line": 48
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "84e7eb052e8cbae1c9f0-565e7f48dafd5867a81c",
+              "file": "homepage.spec.ts",
+              "line": 46,
+              "column": 7
+            },
+            {
+              "title": "should navigate to form when clicking CTA",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 5,
+                      "parallelIndex": 5,
+                      "status": "failed",
+                      "duration": 1298,
+                      "error": {
+                        "message": "Error: expect.toBeVisible: Error: strict mode violation: getByText('Tell Us About Your Business') resolved to 2 elements:\n    1) <p class=\"text-xl text-gray-600 max-w-2xl mx-auto\">Tell us about your business and watch AI create a…</p> aka getByText('Tell us about your business and watch AI create a stunning, high-converting')\n    2) <h2 class=\"text-2xl font-bold text-gray-900 mb-2\">Tell Us About Your Business</h2> aka getByRole('heading', { name: 'Tell Us About Your Business' })\n\nCall log:\n\u001b[2m  - expect.toBeVisible with timeout 10000ms\u001b[22m\n\u001b[2m  - waiting for getByText('Tell Us About Your Business')\u001b[22m\n",
+                        "stack": "Error: expect.toBeVisible: Error: strict mode violation: getByText('Tell Us About Your Business') resolved to 2 elements:\n    1) <p class=\"text-xl text-gray-600 max-w-2xl mx-auto\">Tell us about your business and watch AI create a…</p> aka getByText('Tell us about your business and watch AI create a stunning, high-converting')\n    2) <h2 class=\"text-2xl font-bold text-gray-900 mb-2\">Tell Us About Your Business</h2> aka getByRole('heading', { name: 'Tell Us About Your Business' })\n\nCall log:\n\u001b[2m  - expect.toBeVisible with timeout 10000ms\u001b[22m\n\u001b[2m  - waiting for getByText('Tell Us About Your Business')\u001b[22m\n\n    at /Users/jonathonc/Auto1111/Cursor/Landing New/ai-landing-generator/tests/homepage.spec.ts:57:65",
+                        "location": {
+                          "file": "/Users/jonathonc/Auto1111/Cursor/Landing New/ai-landing-generator/tests/homepage.spec.ts",
+                          "column": 65,
+                          "line": 57
+                        },
+                        "snippet": "  55 |     \n  56 |     // Should show the form\n> 57 |     await expect(page.getByText('Tell Us About Your Business')).toBeVisible()\n     |                                                                 ^\n  58 |     await expect(page.getByText('Business Name *')).toBeVisible()\n  59 |     \n  60 |     // Should have back button"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/Users/jonathonc/Auto1111/Cursor/Landing New/ai-landing-generator/tests/homepage.spec.ts",
+                            "column": 65,
+                            "line": 57
+                          },
+                          "message": "Error: expect.toBeVisible: Error: strict mode violation: getByText('Tell Us About Your Business') resolved to 2 elements:\n    1) <p class=\"text-xl text-gray-600 max-w-2xl mx-auto\">Tell us about your business and watch AI create a…</p> aka getByText('Tell us about your business and watch AI create a stunning, high-converting')\n    2) <h2 class=\"text-2xl font-bold text-gray-900 mb-2\">Tell Us About Your Business</h2> aka getByRole('heading', { name: 'Tell Us About Your Business' })\n\nCall log:\n\u001b[2m  - expect.toBeVisible with timeout 10000ms\u001b[22m\n\u001b[2m  - waiting for getByText('Tell Us About Your Business')\u001b[22m\n\n\n  55 |     \n  56 |     // Should show the form\n> 57 |     await expect(page.getByText('Tell Us About Your Business')).toBeVisible()\n     |                                                                 ^\n  58 |     await expect(page.getByText('Business Name *')).toBeVisible()\n  59 |     \n  60 |     // Should have back button\n    at /Users/jonathonc/Auto1111/Cursor/Landing New/ai-landing-generator/tests/homepage.spec.ts:57:65"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-05-31T18:52:45.793Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/jonathonc/Auto1111/Cursor/Landing New/ai-landing-generator/test-results/homepage-Homepage-Tests-sh-be565-e-to-form-when-clicking-CTA-chromium/test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "/Users/jonathonc/Auto1111/Cursor/Landing New/ai-landing-generator/test-results/homepage-Homepage-Tests-sh-be565-e-to-form-when-clicking-CTA-chromium/video.webm"
+                        },
+                        {
+                          "name": "_error-context-0",
+                          "contentType": "text/markdown",
+                          "path": "/Users/jonathonc/Auto1111/Cursor/Landing New/ai-landing-generator/test-results/homepage-Homepage-Tests-sh-be565-e-to-form-when-clicking-CTA-chromium/error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "/Users/jonathonc/Auto1111/Cursor/Landing New/ai-landing-generator/tests/homepage.spec.ts",
+                        "column": 65,
+                        "line": 57
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "84e7eb052e8cbae1c9f0-34116227916b0207b9a9",
+              "file": "homepage.spec.ts",
+              "line": 53,
+              "column": 7
+            },
+            {
+              "title": "should navigate back from form",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 6,
+                      "parallelIndex": 5,
+                      "status": "interrupted",
+                      "duration": 0,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-05-31T18:52:47.708Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "skipped"
+                }
+              ],
+              "id": "84e7eb052e8cbae1c9f0-dd639d000ee7f99e6ec9",
+              "file": "homepage.spec.ts",
+              "line": 64,
+              "column": 7
+            }
+          ]
+        },
+        {
+          "title": "Preview Showcase Interaction",
+          "file": "homepage.spec.ts",
+          "line": 75,
+          "column": 6,
+          "specs": [
+            {
+              "title": "should switch between preview examples",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "84e7eb052e8cbae1c9f0-8f58d50d97639e4fb06a",
+              "file": "homepage.spec.ts",
+              "line": 80,
+              "column": 7
+            },
+            {
+              "title": "should display preview browser UI",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "interrupted",
+                      "duration": 29,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-05-31T18:52:47.443Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "skipped"
+                }
+              ],
+              "id": "84e7eb052e8cbae1c9f0-a8deb6d6f9badd57a11c",
+              "file": "homepage.spec.ts",
+              "line": 102,
+              "column": 7
+            },
+            {
+              "title": "should show example card details",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "84e7eb052e8cbae1c9f0-c4b9c2a3aa2a4e7206a5",
+              "file": "homepage.spec.ts",
+              "line": 112,
+              "column": 7
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": [
+    {
+      "message": "\u001b[31mTesting stopped early after 3 maximum allowed failures.\u001b[39m"
+    }
+  ],
+  "stats": {
+    "startTime": "2025-05-31T18:52:37.747Z",
+    "duration": 9966.824,
+    "expected": 1,
+    "skipped": 6,
+    "unexpected": 3,
+    "flaky": 0
+  }
+}
